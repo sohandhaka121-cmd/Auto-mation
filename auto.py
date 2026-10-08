@@ -9,7 +9,7 @@ driver.get("https://www.selenium.dev/selenium/web/web-form.html")
 time.sleep(2) 
  
 driver.find_element(By.NAME, "my-text").send_keys("Pythongi") 
-driver.find_element(By.NAME, "my-password").send_keys("infinity13") 
+driver.find_element(By.NAME, "my-password").send_keys("87654321") 
 driver.find_element(By.NAME, "my-textarea").send_keys("Good") 
  
 # dropdown 
