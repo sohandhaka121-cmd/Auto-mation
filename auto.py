@@ -25,7 +25,7 @@ driver.find_element(By.NAME, "my-check-2").click()
 driver.find_element(By.NAME, "my-colors").send_keys("#FFDEDE") 
  
 # date 
-driver.find_element(By.NAME, "my-date").send_keys("2026-11-06") 
+driver.find_element(By.NAME, "my-date").send_keys("2013-11-06") 
  
 time.sleep(5) 
  
