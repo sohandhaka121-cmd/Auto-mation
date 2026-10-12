@@ -13,7 +13,7 @@ driver.find_element(By.NAME, "my-password").send_keys("87654321")
 driver.find_element(By.NAME, "my-textarea").send_keys("Good") 
  
 # dropdown 
-driver.find_element(By.NAME, "my-select").send_keys("sohanur") 
+driver.find_element(By.NAME, "my-select").send_keys("Sohan") 
 driver.find_element(By.CSS_SELECTOR,"option[value='1']").click()
 driver.find_element(By.NAME, "my-datalist").send_keys("spain") 
  
