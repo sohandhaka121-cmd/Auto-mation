@@ -8,7 +8,7 @@ driver = webdriver.Chrome()
 driver.get("https://www.selenium.dev/selenium/web/web-form.html")
 time.sleep(2) 
  
-driver.find_element(By.NAME, "my-text").send_keys("Hello") 
+driver.find_element(By.NAME, "my-text").send_keys("Hiiii") 
 driver.find_element(By.NAME, "my-password").send_keys("87654321") 
 driver.find_element(By.NAME, "my-textarea").send_keys("Good") 
  
